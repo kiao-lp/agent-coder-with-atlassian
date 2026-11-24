@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mcp-server-fetch==2026.11.18",
+        "mcp-server-fetch"
+      ]
+    },
+    "markitdown": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--with",
+        "azure-ai-contentunderstanding>=1.2.0b1",
+        "--from",
+        "markitdown-mcp==0.0.1a8",
+        "markitdown-mcp"
+      ]
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@playwright/mcp@0.0.86",
+        "--headless",
+        "--isolated",
+        "--browser",
+        "chromium"
+      ]
+    },
+    "kiao-files": {
+      "type": "stdio",
+      "command": "kiao-mcp-files",
+      "args": []
+    },
+    "kiao-hybridflow": {
+      "type": "stdio",
+      "command": "kiao-mcp-hybridflow",
+      "args": []
+    }
+  }
+}

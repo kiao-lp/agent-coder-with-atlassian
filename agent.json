@@ -1,0 +1,14 @@
+{
+  "id": "a6bf733e-a92a-4a4d-b70b-1157d3c3d6c3",
+  "name": "Coder With Atlassian",
+  "harness": "codex",
+  "harnesses": [
+    "codex",
+    "muse",
+    "claude",
+    "pi"
+  ],
+  "createdAt": "2026-11-24T13:24:48.130673Z",
+  "updatedAt": "2026-11-24T13:24:48.130673Z",
+  "revision": 1
+}

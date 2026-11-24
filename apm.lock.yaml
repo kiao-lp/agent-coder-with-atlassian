@@ -1,0 +1,2161 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies:
+- repo_url: kiao-lp/agent-coder
+  name: agent-coder
+  host: github.com
+  resolved_commit: 8c12d3a0fde76476ef18d9b0177de04eebce375f
+  resolved_ref: v1.2.1
+  version: 1.2.1
+  package_type: apm_package
+  deployed_files:
+  - .claude/agents/agent-coder.md
+  - .codex/agents/agent-coder.toml
+  deployed_file_hashes:
+    .claude/agents/agent-coder.md: sha256:52a98c0f3ed20ad07c1b7f7c7c22a51f836a03a7403c0c9d51e886e3f1f19a10
+    .codex/agents/agent-coder.toml: sha256:2ff708c1562acb2e0459aa62427718aad2a151dd982a3be4ed82f925e14c54b1
+  content_hash: sha256:be74638bb872a80d4a1afc2be6241e117d228ef4f8c8ab4ee104728bc4e3f8d4
+- repo_url: kiao-lp/skill-bitbucket
+  alias: bitbucket
+  name: bitbucket
+  host: github.com
+  resolved_commit: 970b0f08d4d634208fd5da840d17167708a7bb0c
+  resolved_ref: v1.0.0
+  version: 1.0.0
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/bitbucket
+  - .agents/skills/bitbucket/.gitignore
+  - .agents/skills/bitbucket/SKILL.md
+  - .agents/skills/bitbucket/apm.yml
+  - .agents/skills/bitbucket/references/setup.md
+  - .agents/skills/bitbucket/scripts/bitbucket.py
+  - .agents/skills/bitbucket/scripts/bitbucket_client.py
+  - .agents/skills/bitbucket/tests/test_bitbucket.py
+  - .claude/skills/bitbucket
+  - .claude/skills/bitbucket/.gitignore
+  - .claude/skills/bitbucket/SKILL.md
+  - .claude/skills/bitbucket/apm.yml
+  - .claude/skills/bitbucket/references/setup.md
+  - .claude/skills/bitbucket/scripts/bitbucket.py
+  - .claude/skills/bitbucket/scripts/bitbucket_client.py
+  - .claude/skills/bitbucket/tests/test_bitbucket.py
+  deployed_file_hashes:
+    .agents/skills/bitbucket/.gitignore: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+    .agents/skills/bitbucket/SKILL.md: sha256:1cb0c8d592cc7b67557b71fe6f4788d803bf2cc2c0377b29fa1d549f0acee1ee
+    .agents/skills/bitbucket/apm.yml: sha256:b2ac8eb60388194f376d7e450907c0aa0c9c274d87a68c3f163f594c428a1487
+    .agents/skills/bitbucket/references/setup.md: sha256:e45c1222d307d6f775f3749ff38cc17bf4f6eb03ee4da42b48a8eca1afd118cc
+    .agents/skills/bitbucket/scripts/bitbucket.py: sha256:cf5db9361a6078ef9dea7153ef3908779f928cb1cb2c0e3638fd1c5658fe8fc2
+    .agents/skills/bitbucket/scripts/bitbucket_client.py: sha256:6537ea2e884d70bca8262882bc6b175ad9a390d750f4a1126e34a6946406f8a8
+    .agents/skills/bitbucket/tests/test_bitbucket.py: sha256:9e9b7c04b8c793fd127d9b04d227ea84e03df059e0ed345293c18d5398e010c0
+    .claude/skills/bitbucket/.gitignore: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+    .claude/skills/bitbucket/SKILL.md: sha256:1cb0c8d592cc7b67557b71fe6f4788d803bf2cc2c0377b29fa1d549f0acee1ee
+    .claude/skills/bitbucket/apm.yml: sha256:b2ac8eb60388194f376d7e450907c0aa0c9c274d87a68c3f163f594c428a1487
+    .claude/skills/bitbucket/references/setup.md: sha256:e45c1222d307d6f775f3749ff38cc17bf4f6eb03ee4da42b48a8eca1afd118cc
+    .claude/skills/bitbucket/scripts/bitbucket.py: sha256:cf5db9361a6078ef9dea7153ef3908779f928cb1cb2c0e3638fd1c5658fe8fc2
+    .claude/skills/bitbucket/scripts/bitbucket_client.py: sha256:6537ea2e884d70bca8262882bc6b175ad9a390d750f4a1126e34a6946406f8a8
+    .claude/skills/bitbucket/tests/test_bitbucket.py: sha256:9e9b7c04b8c793fd127d9b04d227ea84e03df059e0ed345293c18d5398e010c0
+  content_hash: sha256:f75f702ee506dc42df3ecf7c3284e42952c326494959776757f20d7313b654b1
+- repo_url: kiao-lp/skill-jira
+  alias: jira
+  name: jira
+  host: github.com
+  resolved_commit: 6ae6fc3435b716327051e4b10455cbc3d2704a3a
+  resolved_ref: v1.0.0
+  version: 1.0.0
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/jira
+  - .agents/skills/jira/.gitignore
+  - .agents/skills/jira/SKILL.md
+  - .agents/skills/jira/apm.yml
+  - .agents/skills/jira/references/operations.md
+  - .agents/skills/jira/references/setup.md
+  - .agents/skills/jira/scripts/jira.py
+  - .agents/skills/jira/scripts/jira_client.py
+  - .agents/skills/jira/scripts/jira_output.py
+  - .agents/skills/jira/tests/test_jira.py
+  - .claude/skills/jira
+  - .claude/skills/jira/.gitignore
+  - .claude/skills/jira/SKILL.md
+  - .claude/skills/jira/apm.yml
+  - .claude/skills/jira/references/operations.md
+  - .claude/skills/jira/references/setup.md
+  - .claude/skills/jira/scripts/jira.py
+  - .claude/skills/jira/scripts/jira_client.py
+  - .claude/skills/jira/scripts/jira_output.py
+  - .claude/skills/jira/tests/test_jira.py
+  deployed_file_hashes:
+    .agents/skills/jira/.gitignore: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+    .agents/skills/jira/SKILL.md: sha256:2eafa9562d369dc66ae30f28173fb3fa322a54009829314d58d4e2bdd996c164
+    .agents/skills/jira/apm.yml: sha256:4b90ba76b97f9c0e750d319633a9d28751ec597a0c6b598ab947b78b0c5045f5
+    .agents/skills/jira/references/operations.md: sha256:9453c3730f71615f9c7dbc6850b004bfb7d0654a13af1a124e2d7698fbb93c5d
+    .agents/skills/jira/references/setup.md: sha256:84a98ac94d1ddd3b5831ac0bd41987546c52e42a67762e163f2f696ba9a74b90
+    .agents/skills/jira/scripts/jira.py: sha256:10baa0ddf8286cd5643dac1ad4de010b426e2ca1369eabb18df609f773dda56b
+    .agents/skills/jira/scripts/jira_client.py: sha256:b9ec57bace055649d63b977429b69803ca5c631c5a5409edfe1c427216879f8b
+    .agents/skills/jira/scripts/jira_output.py: sha256:6de9206f2f96e04a87ef4f7b9a3ac5f02808b8621bb1e415b98ea3ebee82d6ff
+    .agents/skills/jira/tests/test_jira.py: sha256:9e9a5957429a6e3022a66b5ce26e28e96c1b1ec0fd3f77705c834cdfd28375b7
+    .claude/skills/jira/.gitignore: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+    .claude/skills/jira/SKILL.md: sha256:2eafa9562d369dc66ae30f28173fb3fa322a54009829314d58d4e2bdd996c164
+    .claude/skills/jira/apm.yml: sha256:4b90ba76b97f9c0e750d319633a9d28751ec597a0c6b598ab947b78b0c5045f5
+    .claude/skills/jira/references/operations.md: sha256:9453c3730f71615f9c7dbc6850b004bfb7d0654a13af1a124e2d7698fbb93c5d
+    .claude/skills/jira/references/setup.md: sha256:84a98ac94d1ddd3b5831ac0bd41987546c52e42a67762e163f2f696ba9a74b90
+    .claude/skills/jira/scripts/jira.py: sha256:10baa0ddf8286cd5643dac1ad4de010b426e2ca1369eabb18df609f773dda56b
+    .claude/skills/jira/scripts/jira_client.py: sha256:b9ec57bace055649d63b977429b69803ca5c631c5a5409edfe1c427216879f8b
+    .claude/skills/jira/scripts/jira_output.py: sha256:6de9206f2f96e04a87ef4f7b9a3ac5f02808b8621bb1e415b98ea3ebee82d6ff
+    .claude/skills/jira/tests/test_jira.py: sha256:9e9a5957429a6e3022a66b5ce26e28e96c1b1ec0fd3f77705c834cdfd28375b7
+  content_hash: sha256:a266c904258793aac5d27a1b093ad6b3f46375e60030bfe79f0c4740e348407d
+- repo_url: kiao-lp/skill-xray
+  alias: xray
+  name: xray
+  host: github.com
+  resolved_commit: 811d599336da9b2491ffb5e109b465735c7e6248
+  resolved_ref: v1.0.0
+  version: 1.0.0
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/xray
+  - .agents/skills/xray/.gitignore
+  - .agents/skills/xray/SKILL.md
+  - .agents/skills/xray/apm.yml
+  - .agents/skills/xray/references/operations.md
+  - .agents/skills/xray/references/reports.md
+  - .agents/skills/xray/references/setup.md
+  - .agents/skills/xray/scripts/xray.py
+  - .agents/skills/xray/scripts/xray_client.py
+  - .agents/skills/xray/scripts/xray_issues.py
+  - .agents/skills/xray/scripts/xray_reports.py
+  - .agents/skills/xray/tests/test_xray.py
+  - .claude/skills/xray
+  - .claude/skills/xray/.gitignore
+  - .claude/skills/xray/SKILL.md
+  - .claude/skills/xray/apm.yml
+  - .claude/skills/xray/references/operations.md
+  - .claude/skills/xray/references/reports.md
+  - .claude/skills/xray/references/setup.md
+  - .claude/skills/xray/scripts/xray.py
+  - .claude/skills/xray/scripts/xray_client.py
+  - .claude/skills/xray/scripts/xray_issues.py
+  - .claude/skills/xray/scripts/xray_reports.py
+  - .claude/skills/xray/tests/test_xray.py
+  deployed_file_hashes:
+    .agents/skills/xray/.gitignore: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+    .agents/skills/xray/SKILL.md: sha256:84faf956492310bfec9a1d6bc79e871dee84d5618034b8d213c18bfdb68de34c
+    .agents/skills/xray/apm.yml: sha256:ecbcbce7a036d2c6eaf3e98e35a11f67c0755778b7c94d9f4436e01050604741
+    .agents/skills/xray/references/operations.md: sha256:56a3ae6e221c72b59bae05db0f13a8f085bf53b7affe4124132ec2d7937cdaab
+    .agents/skills/xray/references/reports.md: sha256:3778e32d795ac5049d3698198806a4210faa630d66ed319892892fa401c88f44
+    .agents/skills/xray/references/setup.md: sha256:b9604bf86b7b0a29e1a1dcd42294ed32fc2d4c82a43db163af71b4db58f0239b
+    .agents/skills/xray/scripts/xray.py: sha256:0497189a70b223561cbdc59c225ce900f8e5fb9cede56ec9bc827c15af098be1
+    .agents/skills/xray/scripts/xray_client.py: sha256:86aad1c041776c32573f9415c2f06affe00fb8e46bfbf10e04a2ff628d2517fe
+    .agents/skills/xray/scripts/xray_issues.py: sha256:2f2159a3ef6dfea23d2725978ce72d3983fa80159f42734b7dbabc855e1760da
+    .agents/skills/xray/scripts/xray_reports.py: sha256:c0166b6c6993d4c471445ea7b6b7bc56251b6909737dc4d65b80c3f2cd2c035a
+    .agents/skills/xray/tests/test_xray.py: sha256:8df2c1bfcdb5015ae12c31861e1f8e8258f5963465606586dc2f96f2a50f3380
+    .claude/skills/xray/.gitignore: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+    .claude/skills/xray/SKILL.md: sha256:84faf956492310bfec9a1d6bc79e871dee84d5618034b8d213c18bfdb68de34c
+    .claude/skills/xray/apm.yml: sha256:ecbcbce7a036d2c6eaf3e98e35a11f67c0755778b7c94d9f4436e01050604741
+    .claude/skills/xray/references/operations.md: sha256:56a3ae6e221c72b59bae05db0f13a8f085bf53b7affe4124132ec2d7937cdaab
+    .claude/skills/xray/references/reports.md: sha256:3778e32d795ac5049d3698198806a4210faa630d66ed319892892fa401c88f44
+    .claude/skills/xray/references/setup.md: sha256:b9604bf86b7b0a29e1a1dcd42294ed32fc2d4c82a43db163af71b4db58f0239b
+    .claude/skills/xray/scripts/xray.py: sha256:0497189a70b223561cbdc59c225ce900f8e5fb9cede56ec9bc827c15af098be1
+    .claude/skills/xray/scripts/xray_client.py: sha256:86aad1c041776c32573f9415c2f06affe00fb8e46bfbf10e04a2ff628d2517fe
+    .claude/skills/xray/scripts/xray_issues.py: sha256:2f2159a3ef6dfea23d2725978ce72d3983fa80159f42734b7dbabc855e1760da
+    .claude/skills/xray/scripts/xray_reports.py: sha256:c0166b6c6993d4c471445ea7b6b7bc56251b6909737dc4d65b80c3f2cd2c035a
+    .claude/skills/xray/tests/test_xray.py: sha256:8df2c1bfcdb5015ae12c31861e1f8e8258f5963465606586dc2f96f2a50f3380
+  content_hash: sha256:9ec2dae524d89f6c31d29221d2c6fb818f8e8f895bd595c76d7b5861abb7d174
+- repo_url: kiao-lp/agent-coder
+  name: coder-guidance
+  host: github.com
+  resolved_commit: 8c12d3a0fde76476ef18d9b0177de04eebce375f
+  resolved_ref: v1.2.1
+  version: 1.0.0
+  virtual_path: .apm/resources/coder-guidance
+  is_virtual: true
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/coder-guidance
+  - .agents/skills/coder-guidance/SKILL.md
+  - .claude/rules/coding-prose.md
+  - .claude/rules/software-design.md
+  - .claude/skills/coder-guidance
+  - .claude/skills/coder-guidance/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/coder-guidance/SKILL.md: sha256:e727ae0ff61f929fe3954d064cd15b63f2796c7a241ee18784b22608009ca6ba
+    .claude/rules/coding-prose.md: sha256:44d81dd79ef20f441e4235e8537f533ab2eb1677edbb3c323eb7ad273b024f8c
+    .claude/rules/software-design.md: sha256:80d22daa158221fa5460ab2c02eb5a88ffb9c251241b7ef3eef87dd19993d6f8
+    .claude/skills/coder-guidance/SKILL.md: sha256:e727ae0ff61f929fe3954d064cd15b63f2796c7a241ee18784b22608009ca6ba
+  content_hash: sha256:db9957419511ec391a67121ebea5f60ca3a9719cc87ce53d6b900f3a763bcae7
+- repo_url: kiao-lp/agent-coder
+  name: mcp-fetch
+  host: github.com
+  resolved_commit: 8c12d3a0fde76476ef18d9b0177de04eebce375f
+  resolved_ref: v1.2.1
+  version: 1.0.1
+  virtual_path: .apm/resources/mcp-fetch
+  is_virtual: true
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: apm_package
+  content_hash: sha256:38f63d4a783b8db066c46a9265a93dd1ba8327b253d18302f4da5a4f1922eb9b
+- repo_url: kiao-lp/agent-coder
+  name: mcp-markitdown
+  host: github.com
+  resolved_commit: 8c12d3a0fde76476ef18d9b0177de04eebce375f
+  resolved_ref: v1.2.1
+  version: 1.0.1
+  virtual_path: .apm/resources/mcp-markitdown
+  is_virtual: true
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: apm_package
+  content_hash: sha256:4bff5a99a053b242a321f614e73eb332fd7804d04232f857d8491faae263eae6
+- repo_url: kiao-lp/agent-coder
+  name: mcp-playwright
+  host: github.com
+  resolved_commit: 8c12d3a0fde76476ef18d9b0177de04eebce375f
+  resolved_ref: v1.2.1
+  version: 1.0.1
+  virtual_path: .apm/resources/mcp-playwright
+  is_virtual: true
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: apm_package
+  content_hash: sha256:f3cc3d9eeabb69f061d7bc4a735fab88755ef97a4385149418637fc1406c3b89
+- repo_url: kiao-lp/mcp-files
+  name: mcp-files
+  host: github.com
+  resolved_commit: a47535f2e6ee057f30c641a363fccfd62a92512a
+  resolved_ref: a47535f2e6ee057f30c641a363fccfd62a92512a
+  version: 1.0.0
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: apm_package
+  content_hash: sha256:efcd9448ad21a2c7ac7aa64c0a9ca707a1535841cc47d3624dda389cc04f1f6c
+- repo_url: kiao-lp/mcp-hybridflow
+  name: mcp-hybridflow
+  host: github.com
+  resolved_commit: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
+  resolved_ref: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
+  version: 1.0.5
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: apm_package
+  content_hash: sha256:ff2afe27105e5a8a7eeb7657823a6327b92e4e40222d6b960c490bae42b618d7
+- repo_url: kiao-lp/skill-archdia
+  alias: archdia
+  name: archdia
+  host: github.com
+  resolved_commit: 81a0fa9f4f862082639d1e560e8d126287d2062d
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/archdia
+  - .agents/skills/archdia/.gitignore
+  - .agents/skills/archdia/SKILL.md
+  - .agents/skills/archdia/apm.yml
+  - .claude/skills/archdia
+  - .claude/skills/archdia/.gitignore
+  - .claude/skills/archdia/SKILL.md
+  - .claude/skills/archdia/apm.yml
+  deployed_file_hashes:
+    .agents/skills/archdia/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/archdia/SKILL.md: sha256:7cd49fe1bbc061c3980705e31b61e12fa8683d2ede7453ef21bb6e3320609c29
+    .agents/skills/archdia/apm.yml: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
+    .claude/skills/archdia/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/archdia/SKILL.md: sha256:7cd49fe1bbc061c3980705e31b61e12fa8683d2ede7453ef21bb6e3320609c29
+    .claude/skills/archdia/apm.yml: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
+  content_hash: sha256:ef021d3f7d7131fab31ccb565d5fc35b4610d405589fae2f63bde500ab0c6111
+- repo_url: kiao-lp/skill-hybridflow
+  alias: hybridflow
+  name: hybridflow
+  host: github.com
+  resolved_commit: d17b486171350b866e75d1e99f4450c893461301
+  resolved_ref: v1.0.5
+  version: 1.0.5
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/hybridflow
+  - .agents/skills/hybridflow/.gitignore
+  - .agents/skills/hybridflow/SKILL.md
+  - .agents/skills/hybridflow/apm.yml
+  - .agents/skills/hybridflow/references/api-curl.md
+  - .agents/skills/hybridflow/references/cards.md
+  - .agents/skills/hybridflow/references/chains.md
+  - .agents/skills/hybridflow/references/classes.md
+  - .agents/skills/hybridflow/references/execution/agents.md
+  - .agents/skills/hybridflow/references/execution/runners.md
+  - .agents/skills/hybridflow/references/operations.md
+  - .agents/skills/hybridflow/references/operations/lifecycle.md
+  - .agents/skills/hybridflow/references/operations/observation.md
+  - .agents/skills/hybridflow/references/reuse/copying.md
+  - .agents/skills/hybridflow/references/reuse/templates.md
+  - .agents/skills/hybridflow/references/reuse/workflows.md
+  - .agents/skills/hybridflow/references/structured-data.md
+  - .claude/skills/hybridflow
+  - .claude/skills/hybridflow/.gitignore
+  - .claude/skills/hybridflow/SKILL.md
+  - .claude/skills/hybridflow/apm.yml
+  - .claude/skills/hybridflow/references/api-curl.md
+  - .claude/skills/hybridflow/references/cards.md
+  - .claude/skills/hybridflow/references/chains.md
+  - .claude/skills/hybridflow/references/classes.md
+  - .claude/skills/hybridflow/references/execution/agents.md
+  - .claude/skills/hybridflow/references/execution/runners.md
+  - .claude/skills/hybridflow/references/operations.md
+  - .claude/skills/hybridflow/references/operations/lifecycle.md
+  - .claude/skills/hybridflow/references/operations/observation.md
+  - .claude/skills/hybridflow/references/reuse/copying.md
+  - .claude/skills/hybridflow/references/reuse/templates.md
+  - .claude/skills/hybridflow/references/reuse/workflows.md
+  - .claude/skills/hybridflow/references/structured-data.md
+  deployed_file_hashes:
+    .agents/skills/hybridflow/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/hybridflow/SKILL.md: sha256:b7249d1a9b547d8f92d512dd4670ce2de7e7ca6b82619d27677fdb5bb7a1253a
+    .agents/skills/hybridflow/apm.yml: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
+    .agents/skills/hybridflow/references/api-curl.md: sha256:ad3903957fdae49017dd692d036a3439443eecd00f92e2b3256a5927e97b9d17
+    .agents/skills/hybridflow/references/cards.md: sha256:c5f731c7485d13169bce6db689a423edaa8b80a7f9f74e265e1223df39ab77ff
+    .agents/skills/hybridflow/references/chains.md: sha256:b871c9bddd0737c11d463d818ecfbbaf9aaa8383489dcf0a282fad466229a1cb
+    .agents/skills/hybridflow/references/classes.md: sha256:5aab9ab4a5b2776e80209fab3313ced0b6e2f7ce0b42404387719842548c29bb
+    .agents/skills/hybridflow/references/execution/agents.md: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+    .agents/skills/hybridflow/references/execution/runners.md: sha256:2b27270ee8d25f4882f1a52dee91ed0ca87073ad0c2adcba0fb5f6849f116f94
+    .agents/skills/hybridflow/references/operations.md: sha256:989afaed847f849be616fc0f4186b5e6963af19b0d6c4cbcffb6fbf5ed5ae0fe
+    .agents/skills/hybridflow/references/operations/lifecycle.md: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+    .agents/skills/hybridflow/references/operations/observation.md: sha256:18b1a53f0c375c4736dfc82da20009fd1dd925a9f0655b5945da78ef5fb2fe72
+    .agents/skills/hybridflow/references/reuse/copying.md: sha256:d1b0de074859565827cafb65a2e6092116d73f62817b43dc772a5d6f5d5db62e
+    .agents/skills/hybridflow/references/reuse/templates.md: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
+    .agents/skills/hybridflow/references/reuse/workflows.md: sha256:2dcece95586aed98feb80c38ffd4fa44dbbd7fcbe020f5c3f9ddda1300a23d71
+    .agents/skills/hybridflow/references/structured-data.md: sha256:e9904686f3e17164418b8ff83680404c91bc241c811a7f1730584431ec8333d1
+    .claude/skills/hybridflow/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/hybridflow/SKILL.md: sha256:b7249d1a9b547d8f92d512dd4670ce2de7e7ca6b82619d27677fdb5bb7a1253a
+    .claude/skills/hybridflow/apm.yml: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
+    .claude/skills/hybridflow/references/api-curl.md: sha256:ad3903957fdae49017dd692d036a3439443eecd00f92e2b3256a5927e97b9d17
+    .claude/skills/hybridflow/references/cards.md: sha256:c5f731c7485d13169bce6db689a423edaa8b80a7f9f74e265e1223df39ab77ff
+    .claude/skills/hybridflow/references/chains.md: sha256:b871c9bddd0737c11d463d818ecfbbaf9aaa8383489dcf0a282fad466229a1cb
+    .claude/skills/hybridflow/references/classes.md: sha256:5aab9ab4a5b2776e80209fab3313ced0b6e2f7ce0b42404387719842548c29bb
+    .claude/skills/hybridflow/references/execution/agents.md: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+    .claude/skills/hybridflow/references/execution/runners.md: sha256:2b27270ee8d25f4882f1a52dee91ed0ca87073ad0c2adcba0fb5f6849f116f94
+    .claude/skills/hybridflow/references/operations.md: sha256:989afaed847f849be616fc0f4186b5e6963af19b0d6c4cbcffb6fbf5ed5ae0fe
+    .claude/skills/hybridflow/references/operations/lifecycle.md: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+    .claude/skills/hybridflow/references/operations/observation.md: sha256:18b1a53f0c375c4736dfc82da20009fd1dd925a9f0655b5945da78ef5fb2fe72
+    .claude/skills/hybridflow/references/reuse/copying.md: sha256:d1b0de074859565827cafb65a2e6092116d73f62817b43dc772a5d6f5d5db62e
+    .claude/skills/hybridflow/references/reuse/templates.md: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
+    .claude/skills/hybridflow/references/reuse/workflows.md: sha256:2dcece95586aed98feb80c38ffd4fa44dbbd7fcbe020f5c3f9ddda1300a23d71
+    .claude/skills/hybridflow/references/structured-data.md: sha256:e9904686f3e17164418b8ff83680404c91bc241c811a7f1730584431ec8333d1
+  content_hash: sha256:48b6c6140259a2243c922b4f1906bc9e37e7a1f1cde905c4a9fd415ebf1c65ce
+- repo_url: kiao-lp/skill-kiao-adr
+  alias: kiao-adr
+  name: kiao-adr
+  host: github.com
+  resolved_commit: 750a859b447095d5604d0b5fc53147a1a00ca469
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/kiao-adr
+  - .agents/skills/kiao-adr/.gitignore
+  - .agents/skills/kiao-adr/SKILL.md
+  - .agents/skills/kiao-adr/apm.yml
+  - .agents/skills/kiao-adr/references/extensions.md
+  - .agents/skills/kiao-adr/references/madr.md
+  - .claude/skills/kiao-adr
+  - .claude/skills/kiao-adr/.gitignore
+  - .claude/skills/kiao-adr/SKILL.md
+  - .claude/skills/kiao-adr/apm.yml
+  - .claude/skills/kiao-adr/references/extensions.md
+  - .claude/skills/kiao-adr/references/madr.md
+  deployed_file_hashes:
+    .agents/skills/kiao-adr/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/kiao-adr/SKILL.md: sha256:83e1ea5f7b7a0cfa4d68ef60ba319305fc6a7fe6f0c0816d5208e5ebbd6fa7b6
+    .agents/skills/kiao-adr/apm.yml: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
+    .agents/skills/kiao-adr/references/extensions.md: sha256:380849813b10490573364b01872e26562b308ead4cfd16e48ace810249d27553
+    .agents/skills/kiao-adr/references/madr.md: sha256:1c3e82f3e2abc3012f91437d572c91ad3258004c3213c7cdd509e137f59775f8
+    .claude/skills/kiao-adr/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/kiao-adr/SKILL.md: sha256:83e1ea5f7b7a0cfa4d68ef60ba319305fc6a7fe6f0c0816d5208e5ebbd6fa7b6
+    .claude/skills/kiao-adr/apm.yml: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
+    .claude/skills/kiao-adr/references/extensions.md: sha256:380849813b10490573364b01872e26562b308ead4cfd16e48ace810249d27553
+    .claude/skills/kiao-adr/references/madr.md: sha256:1c3e82f3e2abc3012f91437d572c91ad3258004c3213c7cdd509e137f59775f8
+  content_hash: sha256:ba6e4bec915833f516393137dbe31f3a3e3496eea5cabe7ad1e27a0adcb26ef7
+- repo_url: kiao-lp/skill-markdown-anchors
+  alias: markdown-anchors
+  name: markdown-anchors
+  host: github.com
+  resolved_commit: c397eaf94a61946503d6738c0209621ca2ff96ab
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/markdown-anchors
+  - .agents/skills/markdown-anchors/.gitignore
+  - .agents/skills/markdown-anchors/SKILL.md
+  - .agents/skills/markdown-anchors/apm.yml
+  - .claude/skills/markdown-anchors
+  - .claude/skills/markdown-anchors/.gitignore
+  - .claude/skills/markdown-anchors/SKILL.md
+  - .claude/skills/markdown-anchors/apm.yml
+  deployed_file_hashes:
+    .agents/skills/markdown-anchors/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/markdown-anchors/SKILL.md: sha256:876acb5f5c5eec0624a433a148a3eb58e1b0504fd9aac24e7d0ba0efc4382e81
+    .agents/skills/markdown-anchors/apm.yml: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
+    .claude/skills/markdown-anchors/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/markdown-anchors/SKILL.md: sha256:876acb5f5c5eec0624a433a148a3eb58e1b0504fd9aac24e7d0ba0efc4382e81
+    .claude/skills/markdown-anchors/apm.yml: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
+  content_hash: sha256:108a3a767cab46f7aae82495c53bcc5bedbb4fa768493b8833c1d7295fea8da8
+- repo_url: kiao-lp/skill-markdown-metadata
+  alias: markdown-metadata
+  name: markdown-metadata
+  host: github.com
+  resolved_commit: ad22d19d2060b1d0a0f818fee02dacc3e447e234
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/markdown-metadata
+  - .agents/skills/markdown-metadata/.gitignore
+  - .agents/skills/markdown-metadata/SKILL.md
+  - .agents/skills/markdown-metadata/apm.yml
+  - .claude/skills/markdown-metadata
+  - .claude/skills/markdown-metadata/.gitignore
+  - .claude/skills/markdown-metadata/SKILL.md
+  - .claude/skills/markdown-metadata/apm.yml
+  deployed_file_hashes:
+    .agents/skills/markdown-metadata/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/markdown-metadata/SKILL.md: sha256:a759f4f0b178b3e3faca2d347d9a61d70104a3f9a02bba191ddc9947904f49ba
+    .agents/skills/markdown-metadata/apm.yml: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
+    .claude/skills/markdown-metadata/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/markdown-metadata/SKILL.md: sha256:a759f4f0b178b3e3faca2d347d9a61d70104a3f9a02bba191ddc9947904f49ba
+    .claude/skills/markdown-metadata/apm.yml: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
+  content_hash: sha256:ee32366b784ece5ec7016e69e772e110c68a4b9ba1a570aeb93dfdfa2cd22a7f
+- repo_url: kiao-lp/skill-markdown-passage-link
+  alias: markdown-passage-link
+  name: markdown-passage-link
+  host: github.com
+  resolved_commit: 18e21c82b5c0230bcf2e41c6534f6c76b3e1a2b9
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/markdown-passage-link
+  - .agents/skills/markdown-passage-link/.gitignore
+  - .agents/skills/markdown-passage-link/SKILL.md
+  - .agents/skills/markdown-passage-link/apm.yml
+  - .claude/skills/markdown-passage-link
+  - .claude/skills/markdown-passage-link/.gitignore
+  - .claude/skills/markdown-passage-link/SKILL.md
+  - .claude/skills/markdown-passage-link/apm.yml
+  deployed_file_hashes:
+    .agents/skills/markdown-passage-link/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/markdown-passage-link/SKILL.md: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
+    .agents/skills/markdown-passage-link/apm.yml: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+    .claude/skills/markdown-passage-link/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/markdown-passage-link/SKILL.md: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
+    .claude/skills/markdown-passage-link/apm.yml: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+  content_hash: sha256:96b32e85826e71a4cb68453952306f73822fb220fb01adf495eed7243441f819
+- repo_url: kiao-lp/skill-mindmap
+  alias: mindmap
+  name: mindmap
+  host: github.com
+  resolved_commit: 15ce5f9b336aadea39bac8807ba4a3d0e92cf323
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/mindmap
+  - .agents/skills/mindmap/.gitignore
+  - .agents/skills/mindmap/SKILL.md
+  - .agents/skills/mindmap/apm.yml
+  - .claude/skills/mindmap
+  - .claude/skills/mindmap/.gitignore
+  - .claude/skills/mindmap/SKILL.md
+  - .claude/skills/mindmap/apm.yml
+  deployed_file_hashes:
+    .agents/skills/mindmap/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/mindmap/SKILL.md: sha256:2d6299072ddd91168ffa8536f73cd542236fa6c9a52ade25609e7a256e80d909
+    .agents/skills/mindmap/apm.yml: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
+    .claude/skills/mindmap/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/mindmap/SKILL.md: sha256:2d6299072ddd91168ffa8536f73cd542236fa6c9a52ade25609e7a256e80d909
+    .claude/skills/mindmap/apm.yml: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
+  content_hash: sha256:650384704ddd8fc190e976e250d5cbc5cdcd78e7dcd12cbe3a97118ed0726f53
+- repo_url: kiao-lp/skill-template-lang
+  alias: template-lang
+  name: template-lang
+  host: github.com
+  resolved_commit: b2241628b75e46e56d7c8be9e98a6dc0a1ecab1d
+  resolved_ref: v1.0.1
+  version: 1.0.1
+  depth: 2
+  resolved_by: kiao-lp/agent-coder
+  package_type: hybrid
+  deployed_files:
+  - .agents/skills/template-lang
+  - .agents/skills/template-lang/.gitignore
+  - .agents/skills/template-lang/SKILL.md
+  - .agents/skills/template-lang/apm.yml
+  - .claude/skills/template-lang
+  - .claude/skills/template-lang/.gitignore
+  - .claude/skills/template-lang/SKILL.md
+  - .claude/skills/template-lang/apm.yml
+  deployed_file_hashes:
+    .agents/skills/template-lang/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .agents/skills/template-lang/SKILL.md: sha256:64c9da38b19ee842e851b6a694f7f0f979aadcb0658706b833d6f2047f15007b
+    .agents/skills/template-lang/apm.yml: sha256:0c83d8472cea438b9130ffab3d81e8b0f4a9534582c6b8dc48c031cd466f63f6
+    .claude/skills/template-lang/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+    .claude/skills/template-lang/SKILL.md: sha256:64c9da38b19ee842e851b6a694f7f0f979aadcb0658706b833d6f2047f15007b
+    .claude/skills/template-lang/apm.yml: sha256:0c83d8472cea438b9130ffab3d81e8b0f4a9534582c6b8dc48c031cd466f63f6
+  content_hash: sha256:608d99680dfeeb99c79fe2053a9697ce4424f8991c21d9d8f69a972ebb2d5a23
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/agents/agent-coder-with-atlassian.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:5c586b98c03eb23473043908cd2e14030448d516425f172650ed433f18028d18
+- kind: project-relative
+  target: claude
+  value: .claude/agents/agent-coder.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder
+  active_owner: kiao-lp/agent-coder
+  content_hash: sha256:52a98c0f3ed20ad07c1b7f7c7c22a51f836a03a7403c0c9d51e886e3f1f19a10
+- kind: project-relative
+  target: claude
+  value: .claude/rules/coding-prose.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder/.apm/resources/coder-guidance
+  active_owner: kiao-lp/agent-coder/.apm/resources/coder-guidance
+  content_hash: sha256:44d81dd79ef20f441e4235e8537f533ab2eb1677edbb3c323eb7ad273b024f8c
+- kind: project-relative
+  target: claude
+  value: .claude/rules/software-design.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder/.apm/resources/coder-guidance
+  active_owner: kiao-lp/agent-coder/.apm/resources/coder-guidance
+  content_hash: sha256:80d22daa158221fa5460ab2c02eb5a88ffb9c251241b7ef3eef87dd19993d6f8
+- kind: project-relative
+  target: claude
+  value: .claude/skills/archdia
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/archdia/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/archdia/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: sha256:7cd49fe1bbc061c3980705e31b61e12fa8683d2ede7453ef21bb6e3320609c29
+- kind: project-relative
+  target: claude
+  value: .claude/skills/archdia/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:1cb0c8d592cc7b67557b71fe6f4788d803bf2cc2c0377b29fa1d549f0acee1ee
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:b2ac8eb60388194f376d7e450907c0aa0c9c274d87a68c3f163f594c428a1487
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/references/setup.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:e45c1222d307d6f775f3749ff38cc17bf4f6eb03ee4da42b48a8eca1afd118cc
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/scripts/bitbucket.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:cf5db9361a6078ef9dea7153ef3908779f928cb1cb2c0e3638fd1c5658fe8fc2
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/scripts/bitbucket_client.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:6537ea2e884d70bca8262882bc6b175ad9a390d750f4a1126e34a6946406f8a8
+- kind: project-relative
+  target: claude
+  value: .claude/skills/bitbucket/tests/test_bitbucket.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:9e9b7c04b8c793fd127d9b04d227ea84e03df059e0ed345293c18d5398e010c0
+- kind: project-relative
+  target: claude
+  value: .claude/skills/coder-guidance
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder/.apm/resources/coder-guidance
+  active_owner: kiao-lp/agent-coder/.apm/resources/coder-guidance
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/coder-guidance/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder/.apm/resources/coder-guidance
+  active_owner: kiao-lp/agent-coder/.apm/resources/coder-guidance
+  content_hash: sha256:e727ae0ff61f929fe3954d064cd15b63f2796c7a241ee18784b22608009ca6ba
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:b7249d1a9b547d8f92d512dd4670ce2de7e7ca6b82619d27677fdb5bb7a1253a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/api-curl.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:ad3903957fdae49017dd692d036a3439443eecd00f92e2b3256a5927e97b9d17
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/cards.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:c5f731c7485d13169bce6db689a423edaa8b80a7f9f74e265e1223df39ab77ff
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/chains.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:b871c9bddd0737c11d463d818ecfbbaf9aaa8383489dcf0a282fad466229a1cb
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/classes.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:5aab9ab4a5b2776e80209fab3313ced0b6e2f7ce0b42404387719842548c29bb
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/execution/agents.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/execution/runners.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:2b27270ee8d25f4882f1a52dee91ed0ca87073ad0c2adcba0fb5f6849f116f94
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/operations.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:989afaed847f849be616fc0f4186b5e6963af19b0d6c4cbcffb6fbf5ed5ae0fe
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/operations/lifecycle.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/operations/observation.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:18b1a53f0c375c4736dfc82da20009fd1dd925a9f0655b5945da78ef5fb2fe72
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/reuse/copying.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:d1b0de074859565827cafb65a2e6092116d73f62817b43dc772a5d6f5d5db62e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/reuse/templates.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/reuse/workflows.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:2dcece95586aed98feb80c38ffd4fa44dbbd7fcbe020f5c3f9ddda1300a23d71
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/references/structured-data.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:e9904686f3e17164418b8ff83680404c91bc241c811a7f1730584431ec8333d1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:2eafa9562d369dc66ae30f28173fb3fa322a54009829314d58d4e2bdd996c164
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:4b90ba76b97f9c0e750d319633a9d28751ec597a0c6b598ab947b78b0c5045f5
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/references/operations.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:9453c3730f71615f9c7dbc6850b004bfb7d0654a13af1a124e2d7698fbb93c5d
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/references/setup.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:84a98ac94d1ddd3b5831ac0bd41987546c52e42a67762e163f2f696ba9a74b90
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/scripts/jira.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:10baa0ddf8286cd5643dac1ad4de010b426e2ca1369eabb18df609f773dda56b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/scripts/jira_client.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:b9ec57bace055649d63b977429b69803ca5c631c5a5409edfe1c427216879f8b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/scripts/jira_output.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:6de9206f2f96e04a87ef4f7b9a3ac5f02808b8621bb1e415b98ea3ebee82d6ff
+- kind: project-relative
+  target: claude
+  value: .claude/skills/jira/tests/test_jira.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:9e9a5957429a6e3022a66b5ce26e28e96c1b1ec0fd3f77705c834cdfd28375b7
+- kind: project-relative
+  target: claude
+  value: .claude/skills/kiao-adr
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/kiao-adr/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/kiao-adr/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:83e1ea5f7b7a0cfa4d68ef60ba319305fc6a7fe6f0c0816d5208e5ebbd6fa7b6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/kiao-adr/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
+- kind: project-relative
+  target: claude
+  value: .claude/skills/kiao-adr/references/extensions.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:380849813b10490573364b01872e26562b308ead4cfd16e48ace810249d27553
+- kind: project-relative
+  target: claude
+  value: .claude/skills/kiao-adr/references/madr.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:1c3e82f3e2abc3012f91437d572c91ad3258004c3213c7cdd509e137f59775f8
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-anchors
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-anchors/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-anchors/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: sha256:876acb5f5c5eec0624a433a148a3eb58e1b0504fd9aac24e7d0ba0efc4382e81
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-anchors/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-metadata
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-metadata/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-metadata/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: sha256:a759f4f0b178b3e3faca2d347d9a61d70104a3f9a02bba191ddc9947904f49ba
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-metadata/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-passage-link
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-passage-link/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-passage-link/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-passage-link/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+- kind: project-relative
+  target: claude
+  value: .claude/skills/mindmap
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/mindmap/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/mindmap/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: sha256:2d6299072ddd91168ffa8536f73cd542236fa6c9a52ade25609e7a256e80d909
+- kind: project-relative
+  target: claude
+  value: .claude/skills/mindmap/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
+- kind: project-relative
+  target: claude
+  value: .claude/skills/template-lang
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/template-lang/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/template-lang/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: sha256:64c9da38b19ee842e851b6a694f7f0f979aadcb0658706b833d6f2047f15007b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/template-lang/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: sha256:0c83d8472cea438b9130ffab3d81e8b0f4a9534582c6b8dc48c031cd466f63f6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:84faf956492310bfec9a1d6bc79e871dee84d5618034b8d213c18bfdb68de34c
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:ecbcbce7a036d2c6eaf3e98e35a11f67c0755778b7c94d9f4436e01050604741
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/references/operations.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:56a3ae6e221c72b59bae05db0f13a8f085bf53b7affe4124132ec2d7937cdaab
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/references/reports.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:3778e32d795ac5049d3698198806a4210faa630d66ed319892892fa401c88f44
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/references/setup.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:b9604bf86b7b0a29e1a1dcd42294ed32fc2d4c82a43db163af71b4db58f0239b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/scripts/xray.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:0497189a70b223561cbdc59c225ce900f8e5fb9cede56ec9bc827c15af098be1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/scripts/xray_client.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:86aad1c041776c32573f9415c2f06affe00fb8e46bfbf10e04a2ff628d2517fe
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/scripts/xray_issues.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:2f2159a3ef6dfea23d2725978ce72d3983fa80159f42734b7dbabc855e1760da
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/scripts/xray_reports.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:c0166b6c6993d4c471445ea7b6b7bc56251b6909737dc4d65b80c3f2cd2c035a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/xray/tests/test_xray.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:8df2c1bfcdb5015ae12c31861e1f8e8258f5963465606586dc2f96f2a50f3380
+- kind: project-relative
+  target: codex
+  value: .agents/skills/archdia
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/archdia/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/archdia/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: sha256:7cd49fe1bbc061c3980705e31b61e12fa8683d2ede7453ef21bb6e3320609c29
+- kind: project-relative
+  target: codex
+  value: .agents/skills/archdia/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-archdia
+  active_owner: kiao-lp/skill-archdia
+  content_hash: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:1cb0c8d592cc7b67557b71fe6f4788d803bf2cc2c0377b29fa1d549f0acee1ee
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:b2ac8eb60388194f376d7e450907c0aa0c9c274d87a68c3f163f594c428a1487
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/references/setup.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:e45c1222d307d6f775f3749ff38cc17bf4f6eb03ee4da42b48a8eca1afd118cc
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/scripts/bitbucket.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:cf5db9361a6078ef9dea7153ef3908779f928cb1cb2c0e3638fd1c5658fe8fc2
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/scripts/bitbucket_client.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:6537ea2e884d70bca8262882bc6b175ad9a390d750f4a1126e34a6946406f8a8
+- kind: project-relative
+  target: codex
+  value: .agents/skills/bitbucket/tests/test_bitbucket.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-bitbucket
+  active_owner: kiao-lp/skill-bitbucket
+  content_hash: sha256:9e9b7c04b8c793fd127d9b04d227ea84e03df059e0ed345293c18d5398e010c0
+- kind: project-relative
+  target: codex
+  value: .agents/skills/coder-guidance
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder/.apm/resources/coder-guidance
+  active_owner: kiao-lp/agent-coder/.apm/resources/coder-guidance
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/coder-guidance/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder/.apm/resources/coder-guidance
+  active_owner: kiao-lp/agent-coder/.apm/resources/coder-guidance
+  content_hash: sha256:e727ae0ff61f929fe3954d064cd15b63f2796c7a241ee18784b22608009ca6ba
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:b7249d1a9b547d8f92d512dd4670ce2de7e7ca6b82619d27677fdb5bb7a1253a
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/api-curl.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:ad3903957fdae49017dd692d036a3439443eecd00f92e2b3256a5927e97b9d17
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/cards.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:c5f731c7485d13169bce6db689a423edaa8b80a7f9f74e265e1223df39ab77ff
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/chains.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:b871c9bddd0737c11d463d818ecfbbaf9aaa8383489dcf0a282fad466229a1cb
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/classes.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:5aab9ab4a5b2776e80209fab3313ced0b6e2f7ce0b42404387719842548c29bb
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/execution/agents.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/execution/runners.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:2b27270ee8d25f4882f1a52dee91ed0ca87073ad0c2adcba0fb5f6849f116f94
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/operations.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:989afaed847f849be616fc0f4186b5e6963af19b0d6c4cbcffb6fbf5ed5ae0fe
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/operations/lifecycle.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/operations/observation.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:18b1a53f0c375c4736dfc82da20009fd1dd925a9f0655b5945da78ef5fb2fe72
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/reuse/copying.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:d1b0de074859565827cafb65a2e6092116d73f62817b43dc772a5d6f5d5db62e
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/reuse/templates.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/reuse/workflows.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:2dcece95586aed98feb80c38ffd4fa44dbbd7fcbe020f5c3f9ddda1300a23d71
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/references/structured-data.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:e9904686f3e17164418b8ff83680404c91bc241c811a7f1730584431ec8333d1
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:2eafa9562d369dc66ae30f28173fb3fa322a54009829314d58d4e2bdd996c164
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:4b90ba76b97f9c0e750d319633a9d28751ec597a0c6b598ab947b78b0c5045f5
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/references/operations.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:9453c3730f71615f9c7dbc6850b004bfb7d0654a13af1a124e2d7698fbb93c5d
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/references/setup.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:84a98ac94d1ddd3b5831ac0bd41987546c52e42a67762e163f2f696ba9a74b90
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/scripts/jira.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:10baa0ddf8286cd5643dac1ad4de010b426e2ca1369eabb18df609f773dda56b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/scripts/jira_client.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:b9ec57bace055649d63b977429b69803ca5c631c5a5409edfe1c427216879f8b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/scripts/jira_output.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:6de9206f2f96e04a87ef4f7b9a3ac5f02808b8621bb1e415b98ea3ebee82d6ff
+- kind: project-relative
+  target: codex
+  value: .agents/skills/jira/tests/test_jira.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-jira
+  active_owner: kiao-lp/skill-jira
+  content_hash: sha256:9e9a5957429a6e3022a66b5ce26e28e96c1b1ec0fd3f77705c834cdfd28375b7
+- kind: project-relative
+  target: codex
+  value: .agents/skills/kiao-adr
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/kiao-adr/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/kiao-adr/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:83e1ea5f7b7a0cfa4d68ef60ba319305fc6a7fe6f0c0816d5208e5ebbd6fa7b6
+- kind: project-relative
+  target: codex
+  value: .agents/skills/kiao-adr/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
+- kind: project-relative
+  target: codex
+  value: .agents/skills/kiao-adr/references/extensions.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:380849813b10490573364b01872e26562b308ead4cfd16e48ace810249d27553
+- kind: project-relative
+  target: codex
+  value: .agents/skills/kiao-adr/references/madr.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-kiao-adr
+  active_owner: kiao-lp/skill-kiao-adr
+  content_hash: sha256:1c3e82f3e2abc3012f91437d572c91ad3258004c3213c7cdd509e137f59775f8
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-anchors
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-anchors/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-anchors/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: sha256:876acb5f5c5eec0624a433a148a3eb58e1b0504fd9aac24e7d0ba0efc4382e81
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-anchors/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-anchors
+  active_owner: kiao-lp/skill-markdown-anchors
+  content_hash: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-metadata
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-metadata/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-metadata/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: sha256:a759f4f0b178b3e3faca2d347d9a61d70104a3f9a02bba191ddc9947904f49ba
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-metadata/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-metadata
+  active_owner: kiao-lp/skill-markdown-metadata
+  content_hash: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-passage-link
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-passage-link/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-passage-link/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-passage-link/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+- kind: project-relative
+  target: codex
+  value: .agents/skills/mindmap
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/mindmap/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/mindmap/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: sha256:2d6299072ddd91168ffa8536f73cd542236fa6c9a52ade25609e7a256e80d909
+- kind: project-relative
+  target: codex
+  value: .agents/skills/mindmap/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-mindmap
+  active_owner: kiao-lp/skill-mindmap
+  content_hash: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
+- kind: project-relative
+  target: codex
+  value: .agents/skills/template-lang
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/template-lang/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
+- kind: project-relative
+  target: codex
+  value: .agents/skills/template-lang/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: sha256:64c9da38b19ee842e851b6a694f7f0f979aadcb0658706b833d6f2047f15007b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/template-lang/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-template-lang
+  active_owner: kiao-lp/skill-template-lang
+  content_hash: sha256:0c83d8472cea438b9130ffab3d81e8b0f4a9534582c6b8dc48c031cd466f63f6
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/.gitignore
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:84faf956492310bfec9a1d6bc79e871dee84d5618034b8d213c18bfdb68de34c
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:ecbcbce7a036d2c6eaf3e98e35a11f67c0755778b7c94d9f4436e01050604741
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/references/operations.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:56a3ae6e221c72b59bae05db0f13a8f085bf53b7affe4124132ec2d7937cdaab
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/references/reports.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:3778e32d795ac5049d3698198806a4210faa630d66ed319892892fa401c88f44
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/references/setup.md
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:b9604bf86b7b0a29e1a1dcd42294ed32fc2d4c82a43db163af71b4db58f0239b
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/scripts/xray.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:0497189a70b223561cbdc59c225ce900f8e5fb9cede56ec9bc827c15af098be1
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/scripts/xray_client.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:86aad1c041776c32573f9415c2f06affe00fb8e46bfbf10e04a2ff628d2517fe
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/scripts/xray_issues.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:2f2159a3ef6dfea23d2725978ce72d3983fa80159f42734b7dbabc855e1760da
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/scripts/xray_reports.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:c0166b6c6993d4c471445ea7b6b7bc56251b6909737dc4d65b80c3f2cd2c035a
+- kind: project-relative
+  target: codex
+  value: .agents/skills/xray/tests/test_xray.py
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-xray
+  active_owner: kiao-lp/skill-xray
+  content_hash: sha256:8df2c1bfcdb5015ae12c31861e1f8e8258f5963465606586dc2f96f2a50f3380
+- kind: project-relative
+  target: codex
+  value: .codex/agents/agent-coder-with-atlassian.toml
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:01a7a4402982a259cbae08b3fba793d378ac4eb433a6c9dd54ebc6be535488b2
+- kind: project-relative
+  target: codex
+  value: .codex/agents/agent-coder.toml
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/agent-coder
+  active_owner: kiao-lp/agent-coder
+  content_hash: sha256:2ff708c1562acb2e0459aa62427718aad2a151dd982a3be4ed82f925e14c54b1
+- kind: uri
+  target: mcp
+  value: fetch
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:5e23c30431f07b63a22965f9dc976bf0ea781e07512d1f9b7e4b0c8f2f400aa8
+- kind: uri
+  target: mcp
+  value: kiao-files
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9bb2113c9af742c104ace9fb666ddf1bb2bb2645f362d24751dca3e4c9a3ae0b
+- kind: uri
+  target: mcp
+  value: kiao-hybridflow
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:18b8c2e9ce58c99af975d36419bd72604a4725f8e114da3ef56c7aa9010fe0ec
+- kind: uri
+  target: mcp
+  value: markitdown
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:71777542b51e8150d9e5a4ebb6cbc1af5aca74f7e6dad14088fc2861602f57df
+- kind: uri
+  target: mcp
+  value: playwright
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:cae24e298923e7d4ca80c985ab83b247e3884e665ecf111d9b613f9bae1059c8
+- kind: uri
+  target: mcp
+  value: fetch
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:d173300129f5c892dfe41e1a5117c0a7d3bd685f234493c9496c13b7052b9251
+- kind: uri
+  target: mcp
+  value: kiao-files
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:69628caf71e0d6ab778c88fe67d63197b855d9c84e323a4a935498fe9b839de9
+- kind: uri
+  target: mcp
+  value: kiao-hybridflow
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8451bddfc1c549b499228d5eb37ad3638beb8269c646b5082c4f6e7dc4885864
+- kind: uri
+  target: mcp
+  value: markitdown
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:dc4ffcd4b57648e05bccf26d836bce538d4b866221967f18300d940b255e5b46
+- kind: uri
+  target: mcp
+  value: playwright
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:276489357dbae0828b73763586bc1a3215c9294fc7e1622f26804802d74e93b9
+mcp_servers:
+- fetch
+- kiao-files
+- kiao-hybridflow
+- markitdown
+- playwright
+mcp_configs:
+  fetch:
+    name: fetch
+    transport: stdio
+    args:
+    - --from
+    - mcp-server-fetch==2026.11.18
+    - mcp-server-fetch
+    registry: false
+    command: uvx
+  kiao-files:
+    name: kiao-files
+    transport: stdio
+    registry: false
+    command: kiao-mcp-files
+  kiao-hybridflow:
+    name: kiao-hybridflow
+    transport: stdio
+    registry: false
+    command: kiao-mcp-hybridflow
+  markitdown:
+    name: markitdown
+    transport: stdio
+    args:
+    - --with
+    - azure-ai-contentunderstanding>=1.2.0b1
+    - --from
+    - markitdown-mcp==0.0.1a8
+    - markitdown-mcp
+    registry: false
+    command: uvx
+  playwright:
+    name: playwright
+    transport: stdio
+    args:
+    - --yes
+    - '@playwright/mcp@0.0.86'
+    - --headless
+    - --isolated
+    - --browser
+    - chromium
+    registry: false
+    command: npx
+mcp_target_servers:
+  claude:
+  - fetch
+  - kiao-files
+  - kiao-hybridflow
+  - markitdown
+  - playwright
+  codex:
+  - fetch
+  - kiao-files
+  - kiao-hybridflow
+  - markitdown
+  - playwright
+mcp_config_provenance:
+  fetch: mcp-fetch
+  kiao-files: mcp-files
+  kiao-hybridflow: mcp-hybridflow
+  markitdown: mcp-markitdown
+  playwright: mcp-playwright
+local_deployed_files:
+- .claude/agents/agent-coder-with-atlassian.md
+- .codex/agents/agent-coder-with-atlassian.toml
+local_deployed_file_hashes:
+  .claude/agents/agent-coder-with-atlassian.md: sha256:5c586b98c03eb23473043908cd2e14030448d516425f172650ed433f18028d18
+  .codex/agents/agent-coder-with-atlassian.toml: sha256:01a7a4402982a259cbae08b3fba793d378ac4eb433a6c9dd54ebc6be535488b2
