@@ -1,19 +1,21 @@
 name: agent-coder-with-atlassian
-version: 1.0.0
+version: 1.0.1
 description: Handles complex coding work involving Jira, Bitbucket or Xray.
 targets:
-  - codex
-  - claude
+    - codex
+    - claude
 dependencies:
-  apm:
-    - git: https://github.com/kiao-lp/agent-coder.git
-      ref: v1.2.1
-    - alias: jira
-      git: https://github.com/kiao-lp/skill-jira.git
-      ref: v1.0.0
-    - alias: bitbucket
-      git: https://github.com/kiao-lp/skill-bitbucket.git
-      ref: v1.0.0
-    - alias: xray
-      git: git@github.com:kiao-lp/skill-xray.git
-      ref: v1.0.0
+    apm:
+        - git: git@github.com:kiao-lp/mcp-files.git
+          ref: a47535f2e6ee057f30c641a363fccfd62a92512a
+        - git: https://github.com/kiao-lp/agent-coder.git
+          ref: v1.2.3
+        - alias: jira
+          git: https://github.com/kiao-lp/skill-jira.git
+          ref: v1.0.0
+        - alias: bitbucket
+          git: https://github.com/kiao-lp/skill-bitbucket.git
+          ref: v1.0.0
+        - alias: xray
+          git: git@github.com:kiao-lp/skill-xray.git
+          ref: v1.0.0
